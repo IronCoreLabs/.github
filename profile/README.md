@@ -18,30 +18,29 @@ For SaaS apps, supports per-tenant encryption and key management with options fo
 
 [IronCore's Cloaked AI](https://ironcorelabs.com/products/cloaked-ai/) product uses property-preserving encryption that maintains the distance relationships between vectors while encrypting them, allowing organizations to perform nearest neighbor searches, clustering, and anomaly detection over encrypted AI data and to build models over encrypted embeddings that require a key to use. 
 
-The encryption technique is based on the paper, "", and utilizes the scale and perturb algorithm, which randomly adds noise and redistributes vectors while preserving relative distances. Read more about the [security of AI embeddings](https://ironcorelabs.com/ai-encryption/).
+The encryption technique is based on the paper, "Approximate Distance-Comparison-Preserving Symmetric Encryption" by Georg Fuchsbauer, Riddhi Ghosal, Nathan Hauke & Adam O'Neill, and utilizes the scale and perturb algorithm, which randomly adds noise and redistributes vectors while preserving relative distances. Read more about the [security of AI embeddings](https://ironcorelabs.com/ai-encryption/).
 
 [![Play: Cloaked AI Demo](https://img.youtube.com/vi/SjZPizj4SvE/0.jpg)](https://youtu.be/SjZPizj4SvE)
 
 ## Explainers
 
 ### Graphics and Text
-* [Application-layer Encryption Explained](https://ironcorelabs.com/application-layer-encryption/)
+* [Application-layer encryption explained](https://ironcorelabs.com/application-layer-encryption/)
 * [Security of AI embeddings explained](https://ironcorelabs.com/ai-encryption/)
-* [Security Risks with RAG Architectures](https://ironcorelabs.com/security-risks-rag/)
-* [Customer Managed Keys (CMK/BYOK/HYOK): explained](https://ironcorelabs.com/cmk/)
+* [Security Risks with RAG Architectures explained](https://ironcorelabs.com/security-risks-rag/)
+* [Customer Managed Keys (CMK/BYOK/HYOK) explained](https://ironcorelabs.com/cmk/)
 * [Crypto-agility and post-quantum explained](https://ironcorelabs.com/crypto-agility-post-quantum/)
-
-[View all](https://ironcorelabs.com/resources/)
+* [View all](https://ironcorelabs.com/resources/)
 
 ### Videos
 
-* [Vector Encryption Mini Explainer - YouTube](https://youtu.be/ALUrSo1pQRM)
-* [SaaS Shield Application-layer Encryption Demo - YouTube](https://www.youtube.com/watch?v=NLJFEGg3wtk)
-* [IronCore Labs Complete Product Suite Overview - YouTube](https://www.youtube.com/watch?v=igMKN26HXXA)
-* [DEF CON 32 - Attacks on GenAI data &amp; using vector encryption to stop them - Patrick Walsh, Bob Wall - YouTube](https://youtu.be/Lxg9YyFJ8s0)
-* [RMISC 2024 - Exploitable Weaknesses in Gen AI Workflows: From RAG to Riches - YouTube](https://www.youtube.com/watch?v=Mrx-i5M-RfU)
-* [Post-Quantum Cryptography Explained - YouTube](https://www.youtube.com/watch?v=h_m8MiwTdqA)
-[View all YouTube videos](https://www.youtube.com/@ironcorelabs/videos)
+* 📺 [Vector Encryption Mini Explainer - YouTube](https://youtu.be/ALUrSo1pQRM)
+* 📺 [SaaS Shield Application-layer Encryption Demo - YouTube](https://www.youtube.com/watch?v=NLJFEGg3wtk)
+* 📺 [IronCore Labs Complete Product Suite Overview - YouTube](https://www.youtube.com/watch?v=igMKN26HXXA)
+* 📺 [DEF CON 32 - Attacks on GenAI data &amp; using vector encryption to stop them - Patrick Walsh, Bob Wall - YouTube](https://youtu.be/Lxg9YyFJ8s0)
+* 📺 [RMISC 2024 - Exploitable Weaknesses in Gen AI Workflows: From RAG to Riches - YouTube](https://www.youtube.com/watch?v=Mrx-i5M-RfU)
+* 📺 [Post-Quantum Cryptography Explained - YouTube](https://www.youtube.com/watch?v=h_m8MiwTdqA)
+* [View all](https://www.youtube.com/@ironcorelabs/videos)
 
 ## Open source repos
 
@@ -54,7 +53,7 @@ Note: the open source licenses are mostly AGPL so if you plan to use it in comme
 Our client libraries are open source and can be found in our per-language `tenant-security-client` repos: 
 
 * [tenant-security-client-go ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)](https://github.com/IronCoreLabs/tenant-security-client-go)
-* [![tenant-security-client-java Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)](https://github.com/IronCoreLabs/tenant-security-client-java)
+* [tenant-security-client-java ![tenant-security-client-java Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)](https://github.com/IronCoreLabs/tenant-security-client-java)
 * [tenant-security-client-nodejs ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)](https://github.com/IronCoreLabs/tenant-security-client-nodejs)
 * [tenant-security-client-php ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)](https://github.com/IronCoreLabs/tenant-security-client-php)
 
@@ -66,10 +65,7 @@ We're in the process of building out a single unified library that generates int
 
 That's all in our [ironcore-alloy](https://github.com/IronCoreLabs/ironcore-alloy) repo, which is written in Rust and is currently published to:
 
-* ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-* ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
-* ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-* ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
 
 ### Cloaked Search
 
@@ -91,12 +87,12 @@ The key libraries are audited and we have extensive documentation.
     * [ironhide](https://github.com/IronCoreLabs/ironhide) -- command line tool for encrypting files to groups or users; can be used by anyone
     * [ironoxide-cli](https://github.com/IronCoreLabs/ironoxide-cli) -- command line interface for IronOxide functions to create users, devices, and groups; used by developers and admins
 * **High-level crypto libraries (these use recrypt)**
-    * [ironoxide](https://github.com/IronCoreLabs/ironoxide) -- rust library for interacting with the proxy re-encryption service! [Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
-    * [ironoxide-swift](https://github.com/IronCoreLabs/ironoxide-swift) -- swift bindings for ironoxide for iOS ![Swift](https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white)
-    * [ironoxide-swig-bindings](https://github.com/IronCoreLabs/ironoxide-swig-bindings) --  bindings to ironoxide for  ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white),  ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white), and ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-    * [ironoxide-scala](https://github.com/IronCoreLabs/ironoxide-scala) --  bindings to ironoxide for Scala ![Scala](https://img.shields.io/badge/scala-%23DC322F.svg?style=for-the-badge&logo=scala&logoColor=white)
-    * [ironnode](https://github.com/IronCoreLabs/ironnode) -- node library for interacting with the proxy re-encryption service ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-    * [ironweb](https://github.com/IronCoreLabs/ironweb) -- web browser library for interacting with the proxy re-encryption service ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+    * [ironoxide](https://github.com/IronCoreLabs/ironoxide) -- rust library for interacting with the proxy re-encryption service! [Rust](https://img.shields.io/badge/rust-%23000000.svg?style=flat&logo=rust&logoColor=white)
+    * [ironoxide-swift](https://github.com/IronCoreLabs/ironoxide-swift) -- swift bindings for ironoxide for iOS ![Swift](https://img.shields.io/badge/swift-F54A2A?style=flat&logo=swift&logoColor=white)
+    * [ironoxide-swig-bindings](https://github.com/IronCoreLabs/ironoxide-swig-bindings) --  bindings to ironoxide for  ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat&logo=openjdk&logoColor=white),  ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=flat&logo=c%2B%2B&logoColor=white), and ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat&logo=android&logoColor=white)
+    * [ironoxide-scala](https://github.com/IronCoreLabs/ironoxide-scala) --  bindings to ironoxide for Scala ![Scala](https://img.shields.io/badge/scala-%23DC322F.svg?style=flat&logo=scala&logoColor=white)
+    * [ironnode](https://github.com/IronCoreLabs/ironnode) -- node library for interacting with the proxy re-encryption service ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white)
+    * [ironweb](https://github.com/IronCoreLabs/ironweb) -- web browser library for interacting with the proxy re-encryption service ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white)
 * **Low-level crypto libraries**
     * [recrypt-rs](https://github.com/IronCoreLabs/recrypt-rs) -- proxy re-encryption / transform cryptography library in rust (audited, constant time)
     * [gridiron](https://github.com/IronCoreLabs/gridiron) -- constant time big number math library used by recrypt-rs
