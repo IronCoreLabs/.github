@@ -3,7 +3,7 @@
 
 # Welcome to IronCore Labs - Makers of Data Security for Cloud Applications 👋
 
-IronCore Labs makes usable, searchable application-layer encryption that helps developers and security teams lock down their sensitive cloud and AI data while keeping it usable.
+IronCore Labs makes usable, searchable application-layer encryption that helps developers and security teams lock down their sensitive cloud and AI data without the downsides.
 
 ## The application-layer encryption platform
 
